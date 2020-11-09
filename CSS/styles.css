@@ -1,0 +1,71 @@
+body {
+    background-color: #EFEDEA;
+}
+
+menu {
+    display: block;
+    
+    padding: 20px 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+button {
+    font-family: Calibri;
+    text-transform: uppercase;
+    text-align: center;
+    color: #594a4a;
+    background-color: #f8f7f5;
+}
+
+.current {
+    background-color: #594a4a;
+    color: #f8f7f5;
+    
+}
+
+.pagination {
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #EFEDEA;
+
+}
+
+main {
+    display: block;
+}
+
+footer p {
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+footer, main, header {
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: #5a4a4a;
+}
+
+p {
+    color: #857b7b;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .carte .image {
+    float: left;
+}
+
+.container .carte .txt {
+    float: right;
+    overflow: hidden
+}
