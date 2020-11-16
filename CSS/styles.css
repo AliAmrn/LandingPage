@@ -1,52 +1,156 @@
 body {
     background-color: #EFEDEA;
 }
-
-menu {
+/*Navigation*/
+.menu {
     display: block;
-    
-    padding: 20px 12px;
+    margin-top: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.95;
+    width: 1000px;
+    
 }
-button {
+.serviette {
+    position: relative;
+    float: left;
+}
+
+
+a {
+    text-decoration: none;
+    color: #746968;
+}
+    
+.menu a {
+    
     font-family: Calibri;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 50px;
     color: #594a4a;
     background-color: #f8f7f5;
+    border-radius: 15px;
+    margin: 0 10px;
+    padding: 3%;
+    text-decoration: none;
+    
 }
-
-.current {
+/*lien actuel*/
+.menu a.current {
     background-color: #594a4a;
     color: #f8f7f5;
     
-}
+    }
 
-.pagination {
-    display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #EFEDEA;
-
-}
+/*Contenu de la page*/
 
 main {
     display: block;
 }
 
-footer p {
-    display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-}
 footer, main, header {
     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+    }
 
-h1 {
-    color: #5a4a4a;
+
+
+
+body {
+    width: 1200px;
+    margin: 0px auto 0px auto;
 }
 
 p {
     color: #857b7b;
+}
+.carte {
+    background: ghostwhite;
+    margin: 70px auto;
+    height: 475px;
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.image {
+    float: left;
+    
+}
+
+.titreblog{
+    color: #5a4a4a;
+    text-transform: uppercase;
+    
+}
+
+.contenu {
+    padding: 5%;
+    overflow: auto;
+   
+}
+    
+
+.date {
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+/*Elements de pagination*/
+
+.pagination {
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #EFEDEA;
+    text-align: center;
+    margin: 10px 10px;
+    display: block;
+
+    position: relative;
+    overflow: hidden;
+    
+    
+    outline: none;
+    }
+.pagination a {
+    margin: 0 10px;
+    width: 120px;
+    padding: 20px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 50px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    
+
+}
+    
+.precedent {
+    background-color:  #594a4a;
+    color: #edecec;
+}
+
+
+    
+.suivant {
+    background-color: #a59d9b;
+    color: #edecec;
+    }
+hr {
+    margin-top: 40px;
+}
+/*Elements du footer */
+.legal {
+    display: inline;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 45px;
+    }
+.bas {
+    margin: 10px 20px 30px auto;
 }
